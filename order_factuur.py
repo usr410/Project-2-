@@ -2,9 +2,9 @@ import json
 import os
 import shutil
 
-order_dir = "C:\\Skoel\\programmeren\\Project-2-\\JSON_ORDER"
-factuur_dir = "C:\\Skoel\\programmeren\\Project-2-\\JSON_INVOICE"
-processed_dir = "C:\\Skoel\\programmeren\\Project-2-\\JSON_PROCESSED"
+order_dir = "Project-2-\\JSON_ORDER"
+factuur_dir = "Project-2-\\JSON_INVOICE"
+processed_dir = "Project-2-\\JSON_PROCESSED"
 
 os.makedirs(factuur_dir, exist_ok=True)
 os.makedirs(processed_dir, exist_ok=True)
