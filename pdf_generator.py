@@ -4,7 +4,7 @@ from reportlab.pdfgen import canvas
 
 output_dir = "PDF_INVOICE"
 
-# unieke naam generator
+# Unieke naam generator
 def generate_unique_filename(output_dir, base_name):
     i = 1
     while True:
