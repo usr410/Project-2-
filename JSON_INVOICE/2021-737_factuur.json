@@ -1,0 +1,78 @@
+{
+    "order": {
+        "ordernummer": "2021-737",
+        "orderdatum": "15-10-2022",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 883",
+            "postcode": "5935 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "85693405"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 85.5,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 363.04,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 212.71,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 117.65,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 468.49,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 439.54,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 390.41,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 113.49,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 6819.4,
+        "btw(21.0%)": 1432.08,
+        "totaalbedrag": 8251.48
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

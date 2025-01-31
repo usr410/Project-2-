@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2019-914",
+        "orderdatum": "24-07-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Schoolstraat 950",
+            "postcode": "4374 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "34705305"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 298.53,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 430.81,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 120.72,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 423.87,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 108.88,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 4837.82,
+        "btw(21.0%)": 1015.94,
+        "totaalbedrag": 5853.76
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

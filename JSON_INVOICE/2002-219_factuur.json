@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2002-219",
+        "orderdatum": "18-02-2020",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 485",
+            "postcode": "9532 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "70016982"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 401.98,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 256.41,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2487.99,
+        "btw(21.0%)": 522.48,
+        "totaalbedrag": 3010.47
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2012-490",
+        "orderdatum": "27-01-2021",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Schoolstraat 679",
+            "postcode": "1767 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "53883356"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 286.77,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1147.08,
+        "btw(21.0%)": 240.89,
+        "totaalbedrag": 1387.97
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2000-155",
+        "orderdatum": "03-10-2021",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 638",
+            "postcode": "7725 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "18874845"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 474.9,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 949.8,
+        "btw(21.0%)": 199.46,
+        "totaalbedrag": 1149.26
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

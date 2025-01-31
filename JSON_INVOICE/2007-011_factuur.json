@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2007-011",
+        "orderdatum": "03-02-2021",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Hoofdstraat 42",
+            "postcode": "3653 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "95334456"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 375.89,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 38.48,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1657.48,
+        "btw(21.0%)": 348.07,
+        "totaalbedrag": 2005.55
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

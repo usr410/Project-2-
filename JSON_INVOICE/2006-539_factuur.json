@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2006-539",
+        "orderdatum": "15-08-2023",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 167",
+            "postcode": "1938 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "87516657"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 461.05,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 341.15,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 298.12,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 333.19,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 151.27,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 5908.84,
+        "btw(21.0%)": 1240.85,
+        "totaalbedrag": 7149.69
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

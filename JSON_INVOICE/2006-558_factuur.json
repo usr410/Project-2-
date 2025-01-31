@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2006-558",
+        "orderdatum": "14-04-2020",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Schoolstraat 291",
+            "postcode": "4508 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "67798959"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 113.24,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 442.62,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 782.34,
+        "btw(21.0%)": 164.29,
+        "totaalbedrag": 946.63
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "order": {
+        "ordernummer": "2019-165",
+        "orderdatum": "02-01-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Kerkstraat 781",
+            "postcode": "6180 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "71706995"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 85.97,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 48.53,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 462.37,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 456.44,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 95.1,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 123.38,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 316.34,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 482.0,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 147.02,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 124.22,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 212.3,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 13.66,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 480.55,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 83.06,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 357.96,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 10346.39,
+        "btw(21.0%)": 2172.73,
+        "totaalbedrag": 12519.12
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2019-238",
+        "orderdatum": "18-08-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 401",
+            "postcode": "9946 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "18119155"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 99.26,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 34.55,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 284.91,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1023.09,
+        "btw(21.0%)": 214.84,
+        "totaalbedrag": 1237.93
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

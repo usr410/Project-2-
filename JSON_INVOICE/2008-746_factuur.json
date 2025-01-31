@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2008-746",
+        "orderdatum": "11-09-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Hoofdstraat 785",
+            "postcode": "4368 AB",
+            "stad": "Amsterdam",
+            "KVK-nummer": "80414302"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 237.92,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 109.51,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1627.64,
+        "btw(21.0%)": 341.81,
+        "totaalbedrag": 1969.45
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

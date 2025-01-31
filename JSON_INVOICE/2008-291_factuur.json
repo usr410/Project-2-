@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2008-291",
+        "orderdatum": "05-11-2023",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 380",
+            "postcode": "4023 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "26533655"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 494.91,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1484.73,
+        "btw(21.0%)": 311.79,
+        "totaalbedrag": 1796.52
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

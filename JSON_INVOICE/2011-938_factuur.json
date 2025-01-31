@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2011-938",
+        "orderdatum": "09-04-2020",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Schoolstraat 961",
+            "postcode": "8616 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "13840073"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 448.4,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 448.62,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2691.5,
+        "btw(21.0%)": 565.21,
+        "totaalbedrag": 3256.71
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

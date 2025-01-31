@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2020-372",
+        "orderdatum": "10-01-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Kerkstraat 551",
+            "postcode": "2556 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "22796212"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 478.35,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 270.48,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 3744.15,
+        "btw(21.0%)": 786.27,
+        "totaalbedrag": 4530.42
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

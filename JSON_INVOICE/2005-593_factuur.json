@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2005-593",
+        "orderdatum": "03-08-2021",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 438",
+            "postcode": "5442 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "21950006"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Ads",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 395.09,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 215.97,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2228.27,
+        "btw(21.0%)": 467.94,
+        "totaalbedrag": 2696.21
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

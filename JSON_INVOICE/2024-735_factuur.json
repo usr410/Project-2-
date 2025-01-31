@@ -1,0 +1,54 @@
+{
+    "order": {
+        "ordernummer": "2024-735",
+        "orderdatum": "25-04-2024",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 256",
+            "postcode": "7853 AA",
+            "stad": "Amsterdam",
+            "KVK-nummer": "20673323"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 474.44,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 167.33,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 456.17,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 19.01,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 3573.73,
+        "btw(21.0%)": 750.49,
+        "totaalbedrag": 4324.22
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

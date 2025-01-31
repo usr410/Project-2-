@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2006-370",
+        "orderdatum": "22-07-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Schoolstraat 725",
+            "postcode": "5178 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "27952325"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 170.53,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 36.38,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 75.12,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 58.1,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 406.33,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2585.75,
+        "btw(21.0%)": 543.01,
+        "totaalbedrag": 3128.76
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

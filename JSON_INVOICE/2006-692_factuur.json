@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2006-692",
+        "orderdatum": "09-05-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Schoolstraat 390",
+            "postcode": "1381 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "49979262"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 418.67,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 431.72,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2564.22,
+        "btw(21.0%)": 538.48,
+        "totaalbedrag": 3102.7
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

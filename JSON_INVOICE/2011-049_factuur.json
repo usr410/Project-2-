@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2011-049",
+        "orderdatum": "18-02-2023",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 737",
+            "postcode": "1390 AC",
+            "stad": "Rotterdam",
+            "KVK-nummer": "28876546"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 326.08,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1630.4,
+        "btw(21.0%)": 342.38,
+        "totaalbedrag": 1972.78
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

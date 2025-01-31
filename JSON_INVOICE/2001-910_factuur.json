@@ -1,0 +1,54 @@
+{
+    "order": {
+        "ordernummer": "2001-910",
+        "orderdatum": "01-11-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 172",
+            "postcode": "7105 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "47242687"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 166.93,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 12.64,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 160.12,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 400.12,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1917.66,
+        "btw(21.0%)": 402.71,
+        "totaalbedrag": 2320.37
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

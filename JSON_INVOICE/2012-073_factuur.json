@@ -1,0 +1,54 @@
+{
+    "order": {
+        "ordernummer": "2012-073",
+        "orderdatum": "11-05-2021",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 800",
+            "postcode": "5467 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "56930441"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 438.9,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 443.15,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 475.32,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 185.89,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 5032.26,
+        "btw(21.0%)": 1056.77,
+        "totaalbedrag": 6089.03
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2003-720",
+        "orderdatum": "24-05-2023",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Hoofdstraat 727",
+            "postcode": "2645 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "30370676"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 426.92,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 305.57,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 418.13,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 3573.21,
+        "btw(21.0%)": 750.37,
+        "totaalbedrag": 4323.58
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

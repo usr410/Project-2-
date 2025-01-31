@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2008-226",
+        "orderdatum": "18-06-2022",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Schoolstraat 514",
+            "postcode": "8456 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "39691591"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 357.55,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 293.87,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2017.94,
+        "btw(21.0%)": 423.77,
+        "totaalbedrag": 2441.71
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

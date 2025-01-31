@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2017-704",
+        "orderdatum": "03-07-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 890",
+            "postcode": "9975 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "51127043"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 167.34,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 334.68,
+        "btw(21.0%)": 70.28,
+        "totaalbedrag": 404.96
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

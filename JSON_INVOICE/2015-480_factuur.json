@@ -1,0 +1,54 @@
+{
+    "order": {
+        "ordernummer": "2015-480",
+        "orderdatum": "13-11-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Kerkstraat 3",
+            "postcode": "1884 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "12107104"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 234.45,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 34.1,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 191.98,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 231.84,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1664.27,
+        "btw(21.0%)": 349.5,
+        "totaalbedrag": 2013.77
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

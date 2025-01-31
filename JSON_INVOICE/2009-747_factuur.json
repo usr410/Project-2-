@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2009-747",
+        "orderdatum": "03-07-2020",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 755",
+            "postcode": "6568 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "64122646"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 118.25,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 109.55,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 247.32,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1515.39,
+        "btw(21.0%)": 318.23,
+        "totaalbedrag": 1833.62
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

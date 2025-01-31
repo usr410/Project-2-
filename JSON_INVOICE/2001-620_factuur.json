@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2001-620",
+        "orderdatum": "14-03-2022",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Hoofdstraat 462",
+            "postcode": "6459 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "17796999"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 406.42,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 52.88,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1077.24,
+        "btw(21.0%)": 226.22,
+        "totaalbedrag": 1303.46
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

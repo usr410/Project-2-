@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2010-048",
+        "orderdatum": "27-01-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Schoolstraat 127",
+            "postcode": "3087 AA",
+            "stad": "Amsterdam",
+            "KVK-nummer": "62062368"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 453.22,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2266.1,
+        "btw(21.0%)": 475.88,
+        "totaalbedrag": 2741.98
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

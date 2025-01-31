@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2016-262",
+        "orderdatum": "07-01-2021",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 650",
+            "postcode": "6382 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "17091084"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 422.52,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 424.08,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 339.74,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1865.82,
+        "btw(21.0%)": 391.83,
+        "totaalbedrag": 2257.65
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

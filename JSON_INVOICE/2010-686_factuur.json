@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2010-686",
+        "orderdatum": "06-04-2020",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Schoolstraat 872",
+            "postcode": "5065 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "90751593"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 486.57,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 78.37,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 91.43,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2612.42,
+        "btw(21.0%)": 548.61,
+        "totaalbedrag": 3161.03
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

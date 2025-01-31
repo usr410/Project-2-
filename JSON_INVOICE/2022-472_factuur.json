@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2022-472",
+        "orderdatum": "20-06-2021",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Schoolstraat 806",
+            "postcode": "3525 AB",
+            "stad": "Amsterdam",
+            "KVK-nummer": "90714339"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 14.72,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 44.16,
+        "btw(21.0%)": 9.27,
+        "totaalbedrag": 53.43
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

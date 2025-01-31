@@ -1,0 +1,66 @@
+{
+    "order": {
+        "ordernummer": "2005-039",
+        "orderdatum": "08-01-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Hoofdstraat 11",
+            "postcode": "5375 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "54114873"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 48.15,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 417.66,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 90.3,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 74.43,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 203.35,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 137.78,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2938.52,
+        "btw(21.0%)": 617.09,
+        "totaalbedrag": 3555.61
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

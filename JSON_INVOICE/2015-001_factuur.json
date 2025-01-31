@@ -1,0 +1,78 @@
+{
+    "order": {
+        "ordernummer": "2015-001",
+        "orderdatum": "28-06-2023",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Schoolstraat 524",
+            "postcode": "9659 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "40627349"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 165.47,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 308.73,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 300.22,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 370.48,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 433.76,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 271.99,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 336.23,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 480.51,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 8318.61,
+        "btw(21.0%)": 1746.92,
+        "totaalbedrag": 10065.53
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2020-154",
+        "orderdatum": "14-10-2020",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 239",
+            "postcode": "1774 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "84451798"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 193.88,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 388.66,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1746.72,
+        "btw(21.0%)": 366.81,
+        "totaalbedrag": 2113.53
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

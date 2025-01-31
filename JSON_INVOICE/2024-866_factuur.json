@@ -1,0 +1,66 @@
+{
+    "order": {
+        "ordernummer": "2024-866",
+        "orderdatum": "23-09-2022",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Kerkstraat 187",
+            "postcode": "2004 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "59977038"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 60.09,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 378.09,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 192.53,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 19.48,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 196.21,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 457.94,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 4215.36,
+        "btw(21.0%)": 885.23,
+        "totaalbedrag": 5100.59
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2024-036",
+        "orderdatum": "06-03-2021",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Hoofdstraat 780",
+            "postcode": "7364 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "60490521"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Ads",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 458.08,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 373.89,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2206.21,
+        "btw(21.0%)": 463.31,
+        "totaalbedrag": 2669.52
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

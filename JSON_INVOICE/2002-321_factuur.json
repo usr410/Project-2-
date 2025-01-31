@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2002-321",
+        "orderdatum": "05-06-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Kerkstraat 280",
+            "postcode": "5062 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "15068712"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 306.66,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 435.62,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 163.61,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 42.0,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 475.66,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 4596.32,
+        "btw(21.0%)": 965.23,
+        "totaalbedrag": 5561.55
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2001-403",
+        "orderdatum": "01-04-2023",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Hoofdstraat 31",
+            "postcode": "9456 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "67336131"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 85.39,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 373.31,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 320.25,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1963.54,
+        "btw(21.0%)": 412.35,
+        "totaalbedrag": 2375.89
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

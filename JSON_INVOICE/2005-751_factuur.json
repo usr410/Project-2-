@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2005-751",
+        "orderdatum": "20-03-2021",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Hoofdstraat 411",
+            "postcode": "5933 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "51238159"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 367.86,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 314.01,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 3095.34,
+        "btw(21.0%)": 650.02,
+        "totaalbedrag": 3745.36
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

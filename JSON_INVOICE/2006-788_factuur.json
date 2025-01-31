@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2006-788",
+        "orderdatum": "16-12-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Schoolstraat 865",
+            "postcode": "4670 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "26488307"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 340.46,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 680.92,
+        "btw(21.0%)": 142.99,
+        "totaalbedrag": 823.91
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2004-315",
+        "orderdatum": "18-05-2020",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Schoolstraat 26",
+            "postcode": "6170 AA",
+            "stad": "Amsterdam",
+            "KVK-nummer": "27297370"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 58.9,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 58.9,
+        "btw(21.0%)": 12.37,
+        "totaalbedrag": 71.27
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

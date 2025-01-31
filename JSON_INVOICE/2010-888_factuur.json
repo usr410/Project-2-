@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2010-888",
+        "orderdatum": "02-03-2022",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Hoofdstraat 526",
+            "postcode": "9859 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "48487947"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 492.22,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 445.87,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2906.97,
+        "btw(21.0%)": 610.46,
+        "totaalbedrag": 3517.43
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}
