@@ -1,31 +1,28 @@
 {
-  "factuur": {
-    "factuurnummer": "2007-058",
-    "factuurdatum": "06-12-2023",
-    "betaaltermijn": "90-dagen",
+  "order": {
+    "ordernummer": "2007-058",
+    "orderdatum": "01-10-2022",
+    "betaaltermijn": "60-dagen",
     "klant": {
-      "naam": "PC Sputnik B.V.",
-      "adres": "Schoolstraat 127",
-      "postcode": "5632 AC",
-      "stad": "Utrecht",
-      "KVK-nummer": "97260319"
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 944",
+      "postcode": "1762 AC",
+      "stad": "Amsterdam",
+      "KVK-nummer": "44405400"
     },
     "producten": [
       {
-        "productnaam": "Lenovo Thinkpad T14",
-        "aantal": 1,
-        "prijs_per_stuk_excl_btw": 85.63,
-        "btw_per_stuk": 17.98
+        "productnaam": "Adobe InDesign",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 307.61,
+        "btw_per_stuk": 64.6
       },
       {
-        "productnaam": "Lenovo Thinkpad T15",
-        "aantal": 3,
-        "prijs_per_stuk_excl_btw": 104.65,
-        "btw_per_stuk": 21.98
+        "productnaam": "Microsoft Office 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 349.42,
+        "btw_per_stuk": 73.38
       }
-    ],
-    "totaal_excl_btw": 399.58,
-    "totaal_btw": 83.92,
-    "totaal_incl_btw": 483.5
+    ]
   }
 }

@@ -1,37 +1,106 @@
 {
-  "factuur": {
-    "factuurnummer": "2012-838",
-    "factuurdatum": "01-12-2021",
-    "betaaltermijn": "60-dagen",
+  "order": {
+    "ordernummer": "2012-838",
+    "orderdatum": "24-04-2022",
+    "betaaltermijn": "90-dagen",
     "klant": {
-      "naam": "PC Saturnus B.V.",
-      "adres": "Hoofdstraat 313",
-      "postcode": "1322 AC",
-      "stad": "Amsterdam",
-      "KVK-nummer": "92527962"
+      "naam": "PC Neptunus B.V.",
+      "adres": "Hoofdstraat 559",
+      "postcode": "4100 AB",
+      "stad": "Utrecht",
+      "KVK-nummer": "71932531"
     },
     "producten": [
       {
-        "productnaam": "Dell UltraSharp U2719DC",
+        "productnaam": "Oracle Cloud",
         "aantal": 4,
-        "prijs_per_stuk_excl_btw": 434.18,
-        "btw_per_stuk": 91.18
+        "prijs_per_stuk_excl_btw": 228.49,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "Dell UltraSharp U2419H",
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 324.82,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 264.01,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 488.02,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 152.32,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 267.1,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 411.86,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 151.66,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle WebLogic Server",
         "aantal": 2,
-        "prijs_per_stuk_excl_btw": 366.12,
-        "btw_per_stuk": 76.89
+        "prijs_per_stuk_excl_btw": 49.03,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "HP EliteDisplay E223",
+        "productnaam": "Oracle VM",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 231.58,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 323.58,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 419.8,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Workspace",
         "aantal": 4,
-        "prijs_per_stuk_excl_btw": 92.16,
-        "btw_per_stuk": 19.35
+        "prijs_per_stuk_excl_btw": 82.83,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe Photoshop",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 62.58,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 116.44,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 2837.6,
-    "totaal_btw": 595.9,
-    "totaal_incl_btw": 3433.5
+    ]
   }
 }

@@ -1,49 +1,82 @@
 {
-  "factuur": {
-    "factuurnummer": "2005-220",
-    "factuurdatum": "01-01-2022",
-    "betaaltermijn": "30-dagen",
+  "order": {
+    "ordernummer": "2005-220",
+    "orderdatum": "14-07-2020",
+    "betaaltermijn": "60-dagen",
     "klant": {
-      "naam": "PC Sputnik B.V.",
-      "adres": "Hoofdstraat 12",
-      "postcode": "5707 AA",
-      "stad": "Amsterdam",
-      "KVK-nummer": "68357435"
+      "naam": "PC Mercurius B.V.",
+      "adres": "Hoofdstraat 143",
+      "postcode": "7521 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "32269530"
     },
     "producten": [
       {
-        "productnaam": "Dell UltraSharp U2719DC",
-        "aantal": 5,
-        "prijs_per_stuk_excl_btw": 380.73,
-        "btw_per_stuk": 79.95
+        "productnaam": "Oracle VM",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 257.46,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "Dell UltraSharp U2719DC",
+        "productnaam": "Adobe InDesign",
         "aantal": 3,
-        "prijs_per_stuk_excl_btw": 121.0,
-        "btw_per_stuk": 25.41
+        "prijs_per_stuk_excl_btw": 244.78,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 301.57,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Webservices",
         "aantal": 3,
-        "prijs_per_stuk_excl_btw": 447.56,
-        "btw_per_stuk": 93.99
+        "prijs_per_stuk_excl_btw": 66.05,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "MSI AERO 8G OC",
-        "aantal": 5,
-        "prijs_per_stuk_excl_btw": 304.82,
-        "btw_per_stuk": 64.01
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 459.46,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "HP EliteDisplay E223",
+        "productnaam": "Oracle Cloud",
         "aantal": 2,
-        "prijs_per_stuk_excl_btw": 266.35,
-        "btw_per_stuk": 55.93
+        "prijs_per_stuk_excl_btw": 84.89,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 71.38,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 254.41,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 248.94,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Analytics",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 335.06,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe Illustrator",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 300.32,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 5666.13,
-    "totaal_btw": 1189.86,
-    "totaal_incl_btw": 6855.99
+    ]
   }
 }

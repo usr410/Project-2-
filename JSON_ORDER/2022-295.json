@@ -1,31 +1,40 @@
 {
-  "factuur": {
-    "factuurnummer": "2022-295",
-    "factuurdatum": "08-05-2024",
+  "order": {
+    "ordernummer": "2022-295",
+    "orderdatum": "26-11-2021",
     "betaaltermijn": "30-dagen",
     "klant": {
-      "naam": "PC Jupiter B.V.",
-      "adres": "Kerkstraat 110",
-      "postcode": "3602 AB",
-      "stad": "Rotterdam",
-      "KVK-nummer": "87798919"
+      "naam": "PC Sputnik B.V.",
+      "adres": "Schoolstraat 150",
+      "postcode": "2363 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "99644439"
     },
     "producten": [
       {
-        "productnaam": "MSI AERO 32G OC",
+        "productnaam": "Microsoft Windows 10",
         "aantal": 1,
-        "prijs_per_stuk_excl_btw": 388.06,
-        "btw_per_stuk": 81.49
+        "prijs_per_stuk_excl_btw": 176.55,
+        "btw_per_stuk": 37.08
       },
       {
-        "productnaam": "Dell UltraSharp U2719DC",
-        "aantal": 2,
-        "prijs_per_stuk_excl_btw": 258.65,
-        "btw_per_stuk": 54.32
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 98.2,
+        "btw_per_stuk": 20.62
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 408.64,
+        "btw_per_stuk": 85.81
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 334.38,
+        "btw_per_stuk": 70.22
       }
-    ],
-    "totaal_excl_btw": 905.36,
-    "totaal_btw": 190.13,
-    "totaal_incl_btw": 1095.49
+    ]
   }
 }

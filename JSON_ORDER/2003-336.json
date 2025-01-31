@@ -1,25 +1,40 @@
 {
-  "factuur": {
-    "factuurnummer": "2003-336",
-    "factuurdatum": "18-02-2021",
-    "betaaltermijn": "90-dagen",
+  "order": {
+    "ordernummer": "2003-336",
+    "orderdatum": "27-12-2024",
+    "betaaltermijn": "30-dagen",
     "klant": {
-      "naam": "PC Sputnik B.V.",
-      "adres": "Schoolstraat 484",
-      "postcode": "9483 AA",
-      "stad": "Rotterdam",
-      "KVK-nummer": "23750173"
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 472",
+      "postcode": "2585 AA",
+      "stad": "Amsterdam",
+      "KVK-nummer": "85065981"
     },
     "producten": [
       {
-        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
-        "aantal": 5,
-        "prijs_per_stuk_excl_btw": 183.25,
-        "btw_per_stuk": 38.48
+        "productnaam": "Oracle Database 19c",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 242.43,
+        "btw_per_stuk": 50.91
+      },
+      {
+        "productnaam": "Oracle MySQL",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 323.14,
+        "btw_per_stuk": 67.86
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 147.95,
+        "btw_per_stuk": 31.07
+      },
+      {
+        "productnaam": "Google Webservices",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 143.85,
+        "btw_per_stuk": 30.21
       }
-    ],
-    "totaal_excl_btw": 916.25,
-    "totaal_btw": 192.4,
-    "totaal_incl_btw": 1108.65
+    ]
   }
 }

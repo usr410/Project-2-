@@ -1,25 +1,22 @@
 {
-  "factuur": {
-    "factuurnummer": "2011-490",
-    "factuurdatum": "08-10-2024",
-    "betaaltermijn": "60-dagen",
+  "order": {
+    "ordernummer": "2011-490",
+    "orderdatum": "17-01-2024",
+    "betaaltermijn": "30-dagen",
     "klant": {
-      "naam": "PC Jupiter B.V.",
-      "adres": "Schoolstraat 114",
-      "postcode": "7979 AA",
+      "naam": "PC Aarde B.V.",
+      "adres": "Schoolstraat 823",
+      "postcode": "8096 AA",
       "stad": "Amsterdam",
-      "KVK-nummer": "57972130"
+      "KVK-nummer": "26554911"
     },
     "producten": [
       {
-        "productnaam": "Razor gaming keyboard PRO",
-        "aantal": 2,
-        "prijs_per_stuk_excl_btw": 457.06,
-        "btw_per_stuk": 95.98
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 226.03,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 914.12,
-    "totaal_btw": 191.96,
-    "totaal_incl_btw": 1106.08
+    ]
   }
 }

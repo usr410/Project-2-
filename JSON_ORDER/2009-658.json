@@ -1,43 +1,88 @@
 {
-  "factuur": {
-    "factuurnummer": "2009-658",
-    "factuurdatum": "01-08-2022",
+  "order": {
+    "ordernummer": "2009-658",
+    "orderdatum": "13-12-2022",
     "betaaltermijn": "90-dagen",
     "klant": {
       "naam": "PC Jupiter B.V.",
-      "adres": "Kerkstraat 142",
-      "postcode": "3325 AA",
+      "adres": "Hoofdstraat 461",
+      "postcode": "7275 AB",
       "stad": "Amsterdam",
-      "KVK-nummer": "14668828"
+      "KVK-nummer": "52121232"
     },
     "producten": [
       {
-        "productnaam": "Logitech gaming mouse G502",
+        "productnaam": "Microsoft Visual Studio 2019",
         "aantal": 2,
-        "prijs_per_stuk_excl_btw": 57.24,
-        "btw_per_stuk": 12.02
+        "prijs_per_stuk_excl_btw": 177.92,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+        "productnaam": "Google Webservices",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 94.67,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Java SE",
         "aantal": 4,
-        "prijs_per_stuk_excl_btw": 42.48,
-        "btw_per_stuk": 8.92
+        "prijs_per_stuk_excl_btw": 311.84,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "Lenovo Thinkpad T15",
+        "productnaam": "Oracle VM",
         "aantal": 2,
-        "prijs_per_stuk_excl_btw": 142.94,
-        "btw_per_stuk": 30.02
+        "prijs_per_stuk_excl_btw": 139.69,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "productnaam": "Microsoft Windows 10",
         "aantal": 1,
-        "prijs_per_stuk_excl_btw": 11.03,
-        "btw_per_stuk": 2.32
+        "prijs_per_stuk_excl_btw": 274.5,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 75.0,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 412.91,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 51.09,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 432.73,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Ads",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 428.02,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 271.87,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 189.27,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 581.31,
-    "totaal_btw": 122.08,
-    "totaal_incl_btw": 703.39
+    ]
   }
 }
