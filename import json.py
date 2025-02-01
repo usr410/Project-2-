@@ -1,46 +1,51 @@
 import json
 import os
-from datetime import datetime, timedelta
 from reportlab.lib.pagesizes import A4
 from reportlab.lib import colors
-from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
 
-# Voorbeeld factuur JSON (uit de vorige stap)
-factuur_json = '''
-{
-    "factuurnummer": "FACT-2000-096",
-    "factuurdatum": "14-10-2023",
-    "vervaldatum": "13-06-2020",
-    "klant": {
-        "naam": "PC Sputnik B.V.",
-        "adres": "Schoolstraat 169",
-        "postcode": "1128 AA",
-        "stad": "Amsterdam",
-        "KVK-nummer": "64293189"
-    },
-    "order": {
-        "ordernummer": "2000-096",
-        "orderdatum": "14-05-2020"
-    },
-    "producten": [
-        {
-            "productnaam": "Google Cloud Platform",
-            "aantal": 3,
-            "prijs_per_stuk_excl_btw": 494.88,
-            "btw_percentage": 6
-        }
-    ],
-    "totaalbedragen": {
-        "totaal_excl_btw": 1484.64,
-        "btw_bedrag": 89.08,
-        "totaal_incl_btw": 1573.72
-    }
+# Bedrijfsgegevens
+bedrijfsgegevens = {
+    "naam": "NovaTech Solutions B.V.",
+    "adres": "Innovatieplein 12",
+    "postcode": "1012 AB",
+    "stad": "Amsterdam",
+    "KVK": "87654321",
+    "BTW": "NL003456789B01",
+    "IBAN": "NL91ABNA0417164300",
+    "telefoon": "+31 20 123 4567",
+    "email": "info@novatechsolutions.nl",
+    "website": "www.novatechsolutions.nl"
 }
-'''
 
-# Laad de factuur JSON
-factuur = json.loads(factuur_json)
+factuur_dir = "Project-2-\\JSON_INVOICE"
+
+for filename in os.listdir(factuur_dir):
+    if filename.endswith(".json"):
+        factuur = os.path.join(factuur_dir, filename)
+        with open(factuur) as fax:
+            factuur_data = json.load(fax)
+# Functie om JSON-bestand in te laden
+def laad_json_bestand(bestandsnaam):
+    with open(bestandsnaam, 'r') as file:
+        return json.load(file)
+
+# Laad de factuurgegevens uit het JSON-bestand
+bestandsnaam = "2000-096.json"  # Vervang dit door het pad naar je JSON-bestand
+factuur = laad_json_bestand(bestandsnaam)
+
+# Bereken de totaalbedragen
+subtotaal = sum(product["aantal"] * product["prijs_per_stuk_excl_btw"] for product in factuur["order"]["producten"])
+btw_bedrag = sum(product["aantal"] * product["prijs_per_stuk_excl_btw"] * (product["btw_percentage"] / 100) for product in factuur["order"]["producten"])
+totaal_incl_btw = subtotaal + btw_bedrag
+
+# Voeg de totaalbedragen toe aan de factuurgegevens
+factuur["totaalbedragen"] = {
+    "subtotaal": subtotaal,
+    "btw_bedrag": btw_bedrag,
+    "totaal_incl_btw": totaal_incl_btw
+}
 
 # Maak de map PDF_INVOICE als deze niet bestaat
 output_dir = "PDF_INVOICE"
@@ -51,82 +56,115 @@ else:
     print(f"Map '{output_dir}' bestaat al.")
 
 # Genereer de PDF-bestandsnaam
-pdf_filename = os.path.join(output_dir, f"{factuur['factuurnummer']}.pdf")
+pdf_filename = os.path.join(output_dir, f"{factuur['order']['ordernummer']}.pdf")
 print(f"PDF-bestand wordt aangemaakt: {pdf_filename}")
 
 # Maak een PDF-bestand
 try:
     doc = SimpleDocTemplate(pdf_filename, pagesize=A4)
     styles = getSampleStyleSheet()
+
+    # Aangepaste stijl voor links uitgelijnde tekst
+    left_align_style = ParagraphStyle(
+        name='LeftAlign',
+        parent=styles['Normal'],
+        alignment=0,  # 0 = links, 1 = gecentreerd, 2 = rechts
+        fontSize=10,
+        spaceAfter=12
+    )
+
     story = []
 
-    # Titel
-    story.append(Paragraph("Factuur", styles['Title']))
-    story.append(Spacer(1, 12))
+    # Bedrijfsgegevens
+    bedrijfs_info = [
+        [Paragraph(bedrijfsgegevens["naam"], styles['Heading1'])],
+        [Paragraph(bedrijfsgegevens["adres"], left_align_style)],
+        [Paragraph(f"{bedrijfsgegevens['postcode']} {bedrijfsgegevens['stad']}", left_align_style)],
+        [Paragraph(f"KVK: {bedrijfsgegevens['KVK']}", left_align_style)],
+        [Paragraph(f"BTW: {bedrijfsgegevens['BTW']}", left_align_style)],
+        [Paragraph(f"IBAN: {bedrijfsgegevens['IBAN']}", left_align_style)],
+        [Paragraph(f"Telefoon: {bedrijfsgegevens['telefoon']}", left_align_style)],
+        [Paragraph(f"E-mail: {bedrijfsgegevens['email']}", left_align_style)],
+        [Paragraph(f"Website: {bedrijfsgegevens['website']}", left_align_style)]
+    ]
+    story.append(Table(bedrijfs_info, colWidths=[400]))
+    story.append(Spacer(1, 24))
 
     # Factuurgegevens
     factuur_gegevens = [
-        ["Factuurnummer:", factuur["factuurnummer"]],
-        ["Factuurdatum:", factuur["factuurdatum"]],
-        ["Vervaldatum:", factuur["vervaldatum"]]
+        [Paragraph("Factuurnummer:", left_align_style), Paragraph(factuur["order"]["ordernummer"], left_align_style)],
+        [Paragraph("Orderdatum:", left_align_style), Paragraph(factuur["order"]["orderdatum"], left_align_style)],
+        [Paragraph("Betaaltermijn:", left_align_style), Paragraph(factuur["order"]["betaaltermijn"], left_align_style)]
     ]
-    story.append(Table(factuur_gegevens, colWidths=[100, 200]))
-    story.append(Spacer(1, 12))
+    story.append(Table(factuur_gegevens, colWidths=[100, 300]))
+    story.append(Spacer(1, 24))
 
     # Klantgegevens
     klant_gegevens = [
-        ["Klantnaam:", factuur["klant"]["naam"]],
-        ["Adres:", factuur["klant"]["adres"]],
-        ["Postcode:", factuur["klant"]["postcode"]],
-        ["Stad:", factuur["klant"]["stad"]],
-        ["KVK-nummer:", factuur["klant"]["KVK-nummer"]]
+        [Paragraph("Factuur aan:", left_align_style)],
+        [Paragraph(factuur["order"]["klant"]["naam"], left_align_style)],
+        [Paragraph(factuur["order"]["klant"]["adres"], left_align_style)],
+        [Paragraph(factuur["order"]["klant"]["postcode"], left_align_style)],
+        [Paragraph(factuur["order"]["klant"]["stad"], left_align_style)],
+        [Paragraph(f"KVK-nummer: {factuur['order']['klant']['KVK-nummer']}", left_align_style)]
     ]
-    story.append(Table(klant_gegevens, colWidths=[100, 200]))
-    story.append(Spacer(1, 12))
+    story.append(Table(klant_gegevens, colWidths=[400]))
+    story.append(Spacer(1, 24))
 
-    # Ordergegevens
-    order_gegevens = [
-        ["Ordernummer:", factuur["order"]["ordernummer"]],
-        ["Orderdatum:", factuur["order"]["orderdatum"]]
-    ]
-    story.append(Table(order_gegevens, colWidths=[100, 200]))
-    story.append(Spacer(1, 12))
-
-    # Producttabel
-    product_headers = ["Productnaam", "Aantal", "Prijs per stuk (excl. BTW)", "BTW Percentage", "Totaal (excl. BTW)"]
+    # Producttabel (zoals in de afbeelding)
+    product_headers = ["Aantal", "Omschrijving", "Prijs per stuk", "Totaal"]
     product_data = [product_headers]
 
-    for product in factuur["producten"]:
-        totaal_excl_btw = product["aantal"] * product["prijs_per_stuk_excl_btw"]
+    for product in factuur["order"]["producten"]:
+        totaal = product["aantal"] * product["prijs_per_stuk_excl_btw"]
         product_data.append([
-            product["productnaam"],
             str(product["aantal"]),
+            product["productnaam"],
             f"€{product['prijs_per_stuk_excl_btw']:.2f}",
-            f"{product['btw_percentage']}%",
-            f"€{totaal_excl_btw:.2f}"
+            f"€{totaal:.2f}"
         ])
 
-    product_table = Table(product_data, colWidths=[120, 60, 120, 80, 100])
+    product_table = Table(product_data, colWidths=[60, 200, 100, 100])
     product_table.setStyle(TableStyle([
-        ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-        ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
-        ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
-        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
-        ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
-        ('BACKGROUND', (0, 1), (-1, -1), colors.beige),
-        ('GRID', (0, 0), (-1, -1), 1, colors.black)
+        ('ALIGN', (0, 0), (-1, -1), 'LEFT'),  # Links uitlijnen
+        ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),  # Header vetgedrukt
+        ('BOTTOMPADDING', (0, 0), (-1, 0), 12),  # Ruimte onder de header
+        ('GRID', (0, 0), (-1, -1), 1, colors.black)  # Zwarte randen
     ]))
     story.append(product_table)
-    story.append(Spacer(1, 12))
+    story.append(Spacer(1, 24))
 
-    # Totaalbedragen
+    # Totaalbedragen (eenvoudige opmaak)
     totaal_gegevens = [
-        ["Totaalbedrag (excl. BTW):", f"€{factuur['totaalbedragen']['totaal_excl_btw']:.2f}"],
-        ["BTW-bedrag:", f"€{factuur['totaalbedragen']['btw_bedrag']:.2f}"],
-        ["Totaalbedrag (incl. BTW):", f"€{factuur['totaalbedragen']['totaal_incl_btw']:.2f}"]
+        [Paragraph("Subtotaal:", left_align_style), Paragraph(f"€{factuur['totaalbedragen']['subtotaal']:.2f}", left_align_style)],
+        [Paragraph(f"BTW ({factuur['order']['producten'][0]['btw_percentage']}%):", left_align_style), Paragraph(f"€{factuur['totaalbedragen']['btw_bedrag']:.2f}", left_align_style)],
+        [Paragraph("Totaalbedrag:", left_align_style), Paragraph(f"€{factuur['totaalbedragen']['totaal_incl_btw']:.2f}", left_align_style)]
     ]
-    story.append(Table(totaal_gegevens, colWidths=[150, 100]))
-    story.append(Spacer(1, 12))
+    story.append(Table(totaal_gegevens, colWidths=[100, 100]))
+    story.append(Spacer(1, 24))
+
+    # Betalingsgegevens (eenvoudige opmaak)
+    betalings_info = [
+        [Paragraph("Betalingsgegevens:", left_align_style)],
+        [Paragraph("Gelieve het totaalbedrag over te maken naar:", left_align_style)],
+        [Paragraph(f"IBAN: {bedrijfsgegevens['IBAN']}", left_align_style)],
+        [Paragraph("Ten name van: NovaTech Solutions B.V.", left_align_style)]
+    ]
+    story.append(Table(betalings_info, colWidths=[400]))
+    story.append(Spacer(1, 24))
+
+    # Opmerkingen (eenvoudige opmaak)
+    opmerkingen = [
+        [Paragraph("Opmerkingen:", left_align_style)],
+        [Paragraph("- Bij vragen over deze factuur kunt u contact met ons opnemen via info@novatechsolutions.nl of +31 20 123 4567.", left_align_style)],
+        [Paragraph(f"- Betaling dient binnen {factuur['order']['betaaltermijn']} na factuurdatum te geschieden.", left_align_style)],
+        [Paragraph("- Na de vervaldatum kunnen incassokosten in rekening worden gebracht.", left_align_style)]
+    ]
+    story.append(Table(opmerkingen, colWidths=[400]))
+    story.append(Spacer(1, 24))
+
+    # Bedankt voor uw samenwerking
+    story.append(Paragraph("Bedankt voor uw samenwerking!", styles['Title']))
 
     # Bouw de PDF
     doc.build(story)
