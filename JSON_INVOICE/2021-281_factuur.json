@@ -1,0 +1,54 @@
+{
+    "order": {
+        "ordernummer": "2021-281",
+        "orderdatum": "25-02-2020",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Hoofdstraat 667",
+            "postcode": "7104 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "78144824"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 192.66,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 33.06,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 416.44,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 248.89,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2622.93,
+        "btw(21.0%)": 550.82,
+        "totaalbedrag": 3173.75
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

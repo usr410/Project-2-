@@ -1,25 +1,58 @@
 {
-  "factuur": {
-    "factuurnummer": "2009-657",
-    "factuurdatum": "08-09-2022",
-    "betaaltermijn": "60-dagen",
+  "order": {
+    "ordernummer": "2009-657",
+    "orderdatum": "13-01-2023",
+    "betaaltermijn": "90-dagen",
     "klant": {
       "naam": "PC Sputnik B.V.",
-      "adres": "Schoolstraat 514",
-      "postcode": "1731 AA",
+      "adres": "Kerkstraat 785",
+      "postcode": "9473 AC",
       "stad": "Rotterdam",
-      "KVK-nummer": "70337133"
+      "KVK-nummer": "90664253"
     },
     "producten": [
       {
-        "productnaam": "Lenovo Thinkpad T15",
-        "aantal": 1,
-        "prijs_per_stuk_excl_btw": 180.06,
-        "btw_per_stuk": 37.81
+        "productnaam": "Adobe InDesign",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 410.72,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Windows 10",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 396.98,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 152.98,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 235.79,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 272.19,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Windows Server 2019",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 346.9,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 127.0,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 180.06,
-    "totaal_btw": 37.81,
-    "totaal_incl_btw": 217.87
+    ]
   }
 }

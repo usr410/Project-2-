@@ -1,49 +1,34 @@
 {
-  "factuur": {
-    "factuurnummer": "2008-117",
-    "factuurdatum": "27-03-2021",
-    "betaaltermijn": "60-dagen",
+  "order": {
+    "ordernummer": "2008-117",
+    "orderdatum": "06-07-2024",
+    "betaaltermijn": "90-dagen",
     "klant": {
-      "naam": "PC Saturnus B.V.",
-      "adres": "Kerkstraat 164",
-      "postcode": "9099 AA",
-      "stad": "Utrecht",
-      "KVK-nummer": "93290277"
+      "naam": "PC Sputnik B.V.",
+      "adres": "Hoofdstraat 556",
+      "postcode": "1965 AA",
+      "stad": "Rotterdam",
+      "KVK-nummer": "50728307"
     },
     "producten": [
       {
-        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "productnaam": "Oracle VM",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 385.81,
+        "btw_per_stuk": 81.02
+      },
+      {
+        "productnaam": "Google Workspace",
         "aantal": 1,
-        "prijs_per_stuk_excl_btw": 330.08,
-        "btw_per_stuk": 69.32
+        "prijs_per_stuk_excl_btw": 258.89,
+        "btw_per_stuk": 54.37
       },
       {
-        "productnaam": "Razor gaming keyboard PRO",
-        "aantal": 5,
-        "prijs_per_stuk_excl_btw": 33.94,
-        "btw_per_stuk": 7.13
-      },
-      {
-        "productnaam": "Lenovo Thinkpad T14s",
-        "aantal": 5,
-        "prijs_per_stuk_excl_btw": 83.63,
-        "btw_per_stuk": 17.56
-      },
-      {
-        "productnaam": "Razor gaming keyboard PRO",
-        "aantal": 2,
-        "prijs_per_stuk_excl_btw": 405.94,
-        "btw_per_stuk": 85.25
-      },
-      {
-        "productnaam": "Razor gaming keyboard PRO",
-        "aantal": 4,
-        "prijs_per_stuk_excl_btw": 419.18,
-        "btw_per_stuk": 88.03
+        "productnaam": "Adobe Photoshop",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 420.95,
+        "btw_per_stuk": 88.4
       }
-    ],
-    "totaal_excl_btw": 3406.53,
-    "totaal_btw": 715.39,
-    "totaal_incl_btw": 4121.92
+    ]
   }
 }

@@ -1,0 +1,66 @@
+{
+    "order": {
+        "ordernummer": "2012-743",
+        "orderdatum": "28-11-2024",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Hoofdstraat 495",
+            "postcode": "1628 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "92931076"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 302.76,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 60.11,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 196.91,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 86.56,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 35.42,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 294.09,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 4100.2,
+        "btw(21.0%)": 861.04,
+        "totaalbedrag": 4961.24
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

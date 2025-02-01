@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2000-064",
+        "orderdatum": "07-12-2024",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Hoofdstraat 495",
+            "postcode": "1272 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "42171528"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Ads",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 164.97,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 83.1,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 431.55,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1174.53,
+        "btw(21.0%)": 246.65,
+        "totaalbedrag": 1421.18
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

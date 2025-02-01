@@ -1,37 +1,102 @@
 {
-    "factuur": {
-        "factuurnummer": "2007-322",
-        "factuurdatum": "06-05-2020",
+    "order": {
+        "ordernummer": "2007-322",
+        "orderdatum": "06-03-2022",
         "betaaltermijn": "90-dagen",
         "klant": {
-            "naam": "PC Jupiter B.V.",
-            "adres": "Hoofdstraat 364",
-            "postcode": "3606 AA",
-            "stad": "Amsterdam",
-            "KVK-nummer": "67563260"
+            "naam": "PC Neptunus B.V.",
+            "adres": "Schoolstraat 766",
+            "postcode": "8297 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "30541459"
         },
         "producten": [
             {
-                "productnaam": "Lenovo Thinkpad T14",
-                "aantal": 4,
-                "prijs_per_stuk_excl_btw": 246.37,
-                "btw_per_stuk": 51.74
-            },
-            {
-                "productnaam": "HP EliteDisplay E233",
+                "productnaam": "Microsoft Windows Server 2019",
                 "aantal": 3,
-                "prijs_per_stuk_excl_btw": 265.54,
-                "btw_per_stuk": 55.76
+                "prijs_per_stuk_excl_btw": 79.6,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Lenovo Thinkpad T14s",
+                "productnaam": "Google Webservices",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 296.39,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 268.37,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 127.71,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 407.42,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 268.3,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
                 "aantal": 4,
-                "prijs_per_stuk_excl_btw": 13.09,
-                "btw_per_stuk": 2.75
+                "prijs_per_stuk_excl_btw": 347.85,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 301.22,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 108.86,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 456.3,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 303.94,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 419.08,
+                "btw_percentage": 21.0
             }
         ],
-        "totaal_excl_btw": 1834.46,
-        "totaal_btw": 385.24,
-        "totaal_incl_btw": 2219.7
+        "subtotaal": 8838.87,
+        "btw(21.0%)": 1856.15,
+        "totaalbedrag": 10695.02
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
     }
 }

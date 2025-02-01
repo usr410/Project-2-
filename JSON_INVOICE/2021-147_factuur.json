@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2021-147",
+        "orderdatum": "15-07-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Schoolstraat 365",
+            "postcode": "6279 AC",
+            "stad": "Rotterdam",
+            "KVK-nummer": "42769569"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 344.74,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 11.36,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 24.32,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1842.1,
+        "btw(21.0%)": 386.84,
+        "totaalbedrag": 2228.94
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "order": {
+        "ordernummer": "2021-402",
+        "orderdatum": "28-03-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Schoolstraat 464",
+            "postcode": "6124 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "11228719"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 222.04,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 414.28,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 221.48,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 181.35,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 142.1,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 282.67,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 246.0,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 5328.24,
+        "btw(21.0%)": 1118.92,
+        "totaalbedrag": 6447.16
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

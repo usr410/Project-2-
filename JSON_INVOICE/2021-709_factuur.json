@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2021-709",
+        "orderdatum": "23-10-2022",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Schoolstraat 426",
+            "postcode": "3042 AC",
+            "stad": "Amsterdam",
+            "KVK-nummer": "39493557"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 79.35,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 441.39,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 485.74,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 238.28,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 443.74,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 6163.09,
+        "btw(21.0%)": 1294.26,
+        "totaalbedrag": 7457.35
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

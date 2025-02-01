@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2004-820",
+        "orderdatum": "05-05-2023",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 849",
+            "postcode": "9526 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "91722504"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 85.31,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 339.39,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 293.4,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2408.38,
+        "btw(21.0%)": 505.76,
+        "totaalbedrag": 2914.14
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

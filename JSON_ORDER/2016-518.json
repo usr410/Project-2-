@@ -1,37 +1,46 @@
 {
-  "factuur": {
-    "factuurnummer": "2016-518",
-    "factuurdatum": "24-08-2020",
-    "betaaltermijn": "90-dagen",
+  "order": {
+    "ordernummer": "2016-518",
+    "orderdatum": "19-12-2021",
+    "betaaltermijn": "60-dagen",
     "klant": {
-      "naam": "PC Sputnik B.V.",
-      "adres": "Schoolstraat 403",
-      "postcode": "8072 AB",
-      "stad": "Utrecht",
-      "KVK-nummer": "15295508"
+      "naam": "PC Jupiter B.V.",
+      "adres": "Hoofdstraat 465",
+      "postcode": "6037 AC",
+      "stad": "Rotterdam",
+      "KVK-nummer": "82461983"
     },
     "producten": [
       {
-        "productnaam": "Razor gaming keyboard ULTIMATE",
+        "productnaam": "Adobe Creative Cloud",
         "aantal": 1,
-        "prijs_per_stuk_excl_btw": 296.33,
-        "btw_per_stuk": 62.23
+        "prijs_per_stuk_excl_btw": 77.61,
+        "btw_per_stuk": 16.3
       },
       {
-        "productnaam": "MSI AERO 64G OC",
+        "productnaam": "Oracle Java SE",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 403.52,
+        "btw_per_stuk": 84.74
+      },
+      {
+        "productnaam": "Microsoft Power BI",
         "aantal": 5,
-        "prijs_per_stuk_excl_btw": 304.16,
-        "btw_per_stuk": 63.87
+        "prijs_per_stuk_excl_btw": 256.04,
+        "btw_per_stuk": 53.77
       },
       {
-        "productnaam": "Dell UltraSharp U2719D",
+        "productnaam": "Microsoft Azure",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 429.32,
+        "btw_per_stuk": 90.16
+      },
+      {
+        "productnaam": "Google Ads",
         "aantal": 2,
-        "prijs_per_stuk_excl_btw": 243.36,
-        "btw_per_stuk": 51.11
+        "prijs_per_stuk_excl_btw": 128.43,
+        "btw_per_stuk": 26.97
       }
-    ],
-    "totaal_excl_btw": 2303.85,
-    "totaal_btw": 483.8,
-    "totaal_incl_btw": 2787.65
+    ]
   }
 }

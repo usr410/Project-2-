@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2024-599",
+        "orderdatum": "26-11-2024",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Schoolstraat 337",
+            "postcode": "9913 AA",
+            "stad": "Amsterdam",
+            "KVK-nummer": "42340723"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 116.84,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 260.79,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1537.63,
+        "btw(21.0%)": 322.9,
+        "totaalbedrag": 1860.53
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

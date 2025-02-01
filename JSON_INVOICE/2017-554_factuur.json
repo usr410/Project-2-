@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2017-554",
+        "orderdatum": "25-03-2020",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 781",
+            "postcode": "5600 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "69742464"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 283.98,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 322.73,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2142.86,
+        "btw(21.0%)": 450.0,
+        "totaalbedrag": 2592.86
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

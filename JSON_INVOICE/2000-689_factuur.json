@@ -1,37 +1,42 @@
 {
-    "factuur": {
-        "factuurnummer": "2000-689",
-        "factuurdatum": "23-09-2023",
-        "betaaltermijn": "90-dagen",
+    "order": {
+        "ordernummer": "2000-689",
+        "orderdatum": "13-08-2022",
+        "betaaltermijn": "30-dagen",
         "klant": {
-            "naam": "PC Saturnus B.V.",
-            "adres": "Schoolstraat 89",
-            "postcode": "2253 AA",
-            "stad": "Amsterdam",
-            "KVK-nummer": "93584643"
+            "naam": "PC Neptunus B.V.",
+            "adres": "Kerkstraat 446",
+            "postcode": "2436 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "18819831"
         },
         "producten": [
             {
-                "productnaam": "Dell UltraSharp U2719D",
-                "aantal": 1,
-                "prijs_per_stuk_excl_btw": 475.09,
-                "btw_per_stuk": 99.77
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 188.75,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "HP EliteDisplay E223",
+                "productnaam": "Google Workspace",
                 "aantal": 2,
-                "prijs_per_stuk_excl_btw": 26.01,
-                "btw_per_stuk": 5.46
-            },
-            {
-                "productnaam": "Dell UltraSharp U2719D",
-                "aantal": 5,
-                "prijs_per_stuk_excl_btw": 201.96,
-                "btw_per_stuk": 42.41
+                "prijs_per_stuk_excl_btw": 435.08,
+                "btw_percentage": 21.0
             }
         ],
-        "totaal_excl_btw": 1536.91,
-        "totaal_btw": 322.74,
-        "totaal_incl_btw": 1859.65
+        "subtotaal": 1625.16,
+        "btw(21.0%)": 341.28,
+        "totaalbedrag": 1966.44
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
     }
 }

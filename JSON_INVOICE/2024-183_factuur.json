@@ -1,31 +1,114 @@
 {
-    "factuur": {
-        "factuurnummer": "2024-183",
-        "factuurdatum": "13-08-2022",
-        "betaaltermijn": "30-dagen",
+    "order": {
+        "ordernummer": "2024-183",
+        "orderdatum": "03-07-2020",
+        "betaaltermijn": "90-dagen",
         "klant": {
-            "naam": "PC Sputnik B.V.",
-            "adres": "Hoofdstraat 685",
-            "postcode": "5458 AB",
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 886",
+            "postcode": "7095 AB",
             "stad": "Utrecht",
-            "KVK-nummer": "66751361"
+            "KVK-nummer": "38389002"
         },
         "producten": [
             {
-                "productnaam": "Dell UltraSharp U2719D",
-                "aantal": 3,
-                "prijs_per_stuk_excl_btw": 386.51,
-                "btw_per_stuk": 81.17
+                "productnaam": "GitHub",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 87.19,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Dell UltraSharp U2719DC",
+                "productnaam": "Google Analytics",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 22.65,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 60.8,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
                 "aantal": 3,
-                "prijs_per_stuk_excl_btw": 243.74,
-                "btw_per_stuk": 51.19
+                "prijs_per_stuk_excl_btw": 48.05,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 276.3,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 242.29,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 81.98,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 290.82,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 102.75,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 234.55,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 279.98,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 79.02,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 404.85,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 456.03,
+                "btw_percentage": 21.0
             }
         ],
-        "totaal_excl_btw": 1890.75,
-        "totaal_btw": 397.08,
-        "totaal_incl_btw": 2287.83
+        "subtotaal": 7446.96,
+        "btw(21.0%)": 1563.88,
+        "totaalbedrag": 9010.84
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
     }
 }

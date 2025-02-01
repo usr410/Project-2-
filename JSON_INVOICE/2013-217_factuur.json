@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2013-217",
+        "orderdatum": "02-02-2024",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 437",
+            "postcode": "9358 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "58760682"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 250.5,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 206.5,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 407.03,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 450.0,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 368.8,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 5672.53,
+        "btw(21.0%)": 1191.23,
+        "totaalbedrag": 6863.76
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

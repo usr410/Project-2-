@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2001-348",
+        "orderdatum": "10-12-2020",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 580",
+            "postcode": "6851 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "45455189"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 439.36,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 97.61,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2684.85,
+        "btw(21.0%)": 563.82,
+        "totaalbedrag": 3248.67
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

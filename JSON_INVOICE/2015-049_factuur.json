@@ -1,0 +1,72 @@
+{
+    "order": {
+        "ordernummer": "2015-049",
+        "orderdatum": "19-03-2022",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 63",
+            "postcode": "4934 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "10648814"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 184.79,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 214.87,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 55.34,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 121.33,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 318.42,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 98.43,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 104.16,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 3132.62,
+        "btw(21.0%)": 657.84,
+        "totaalbedrag": 3790.46
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "order": {
+        "ordernummer": "2009-533",
+        "orderdatum": "18-12-2023",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Kerkstraat 274",
+            "postcode": "5430 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "75388246"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 144.75,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 106.83,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 118.97,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 462.46,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 79.94,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1789.26,
+        "btw(21.0%)": 375.75,
+        "totaalbedrag": 2165.01
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

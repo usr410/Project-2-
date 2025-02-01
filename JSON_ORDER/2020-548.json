@@ -1,43 +1,70 @@
 {
-  "factuur": {
-    "factuurnummer": "2020-548",
-    "factuurdatum": "16-07-2022",
-    "betaaltermijn": "90-dagen",
+  "order": {
+    "ordernummer": "2020-548",
+    "orderdatum": "05-06-2024",
+    "betaaltermijn": "30-dagen",
     "klant": {
-      "naam": "PC Jupiter B.V.",
-      "adres": "Hoofdstraat 412",
-      "postcode": "6047 AA",
-      "stad": "Rotterdam",
-      "KVK-nummer": "22581529"
+      "naam": "PC Aarde B.V.",
+      "adres": "Schoolstraat 952",
+      "postcode": "1399 AC",
+      "stad": "Utrecht",
+      "KVK-nummer": "42327866"
     },
     "producten": [
       {
-        "productnaam": "HP EliteDisplay E233",
-        "aantal": 4,
-        "prijs_per_stuk_excl_btw": 404.66,
-        "btw_per_stuk": 84.98
-      },
-      {
-        "productnaam": "MSI AERO 64G OC",
-        "aantal": 1,
-        "prijs_per_stuk_excl_btw": 165.95,
-        "btw_per_stuk": 34.85
-      },
-      {
-        "productnaam": "Lenovo Thinkpad T14s",
-        "aantal": 1,
-        "prijs_per_stuk_excl_btw": 268.07,
-        "btw_per_stuk": 56.29
-      },
-      {
-        "productnaam": "Razor gaming keyboard",
+        "productnaam": "Microsoft Power BI",
         "aantal": 5,
-        "prijs_per_stuk_excl_btw": 297.61,
-        "btw_per_stuk": 62.5
+        "prijs_per_stuk_excl_btw": 247.13,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 487.9,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 165.47,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Cloud",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 133.72,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe InDesign",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 497.99,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 139.9,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle VM",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 25.82,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Workspace",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 302.23,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Dynamics 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 284.84,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 3540.71,
-    "totaal_btw": 743.56,
-    "totaal_incl_btw": 4284.27
+    ]
   }
 }

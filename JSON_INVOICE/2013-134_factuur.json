@@ -1,0 +1,90 @@
+{
+    "order": {
+        "ordernummer": "2013-134",
+        "orderdatum": "07-06-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 69",
+            "postcode": "8087 AC",
+            "stad": "Rotterdam",
+            "KVK-nummer": "57879625"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Ads",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 425.65,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 227.75,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 347.56,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 289.72,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 241.89,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 414.61,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 407.53,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 191.76,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 368.34,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 183.6,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 11287.74,
+        "btw(21.0%)": 2370.44,
+        "totaalbedrag": 13658.18
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

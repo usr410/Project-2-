@@ -1,43 +1,42 @@
 {
-    "factuur": {
-        "factuurnummer": "2001-133",
-        "factuurdatum": "02-06-2022",
-        "betaaltermijn": "90-dagen",
+    "order": {
+        "ordernummer": "2001-133",
+        "orderdatum": "01-11-2024",
+        "betaaltermijn": "30-dagen",
         "klant": {
             "naam": "PC Saturnus B.V.",
-            "adres": "Hoofdstraat 227",
-            "postcode": "2399 AA",
+            "adres": "Schoolstraat 60",
+            "postcode": "9927 AA",
             "stad": "Rotterdam",
-            "KVK-nummer": "97770926"
+            "KVK-nummer": "21220020"
         },
         "producten": [
             {
-                "productnaam": "MSI AERO 16G OC",
-                "aantal": 5,
-                "prijs_per_stuk_excl_btw": 129.26,
-                "btw_per_stuk": 27.14
-            },
-            {
-                "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
+                "productnaam": "Google Cloud Platform",
                 "aantal": 3,
-                "prijs_per_stuk_excl_btw": 474.59,
-                "btw_per_stuk": 99.66
+                "prijs_per_stuk_excl_btw": 461.28,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Razor gaming keyboard ULTIMATE",
+                "productnaam": "Google Cloud Platform",
                 "aantal": 2,
-                "prijs_per_stuk_excl_btw": 413.97,
-                "btw_per_stuk": 86.93
-            },
-            {
-                "productnaam": "Razor gaming keyboard PRO",
-                "aantal": 3,
-                "prijs_per_stuk_excl_btw": 69.84,
-                "btw_per_stuk": 14.67
+                "prijs_per_stuk_excl_btw": 207.98,
+                "btw_percentage": 21.0
             }
         ],
-        "totaal_excl_btw": 3107.53,
-        "totaal_btw": 652.55,
-        "totaal_incl_btw": 3760.08
+        "subtotaal": 1799.8,
+        "btw(21.0%)": 377.96,
+        "totaalbedrag": 2177.76
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
     }
 }

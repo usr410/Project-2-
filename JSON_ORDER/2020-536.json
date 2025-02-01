@@ -1,37 +1,28 @@
 {
-  "factuur": {
-    "factuurnummer": "2020-536",
-    "factuurdatum": "08-12-2023",
-    "betaaltermijn": "90-dagen",
+  "order": {
+    "ordernummer": "2020-536",
+    "orderdatum": "03-07-2024",
+    "betaaltermijn": "30-dagen",
     "klant": {
-      "naam": "PC Jupiter B.V.",
-      "adres": "Kerkstraat 438",
-      "postcode": "9958 AB",
-      "stad": "Utrecht",
-      "KVK-nummer": "70244195"
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 910",
+      "postcode": "5161 AB",
+      "stad": "Rotterdam",
+      "KVK-nummer": "69336333"
     },
     "producten": [
       {
-        "productnaam": "Razor gaming keyboard",
-        "aantal": 2,
-        "prijs_per_stuk_excl_btw": 225.81,
-        "btw_per_stuk": 47.42
-      },
-      {
-        "productnaam": "Dell UltraSharp U2419H",
-        "aantal": 2,
-        "prijs_per_stuk_excl_btw": 160.49,
-        "btw_per_stuk": 33.7
-      },
-      {
-        "productnaam": "Logitech gaming mouse G502 HERO",
+        "productnaam": "Microsoft Windows 10",
         "aantal": 3,
-        "prijs_per_stuk_excl_btw": 363.86,
-        "btw_per_stuk": 76.41
+        "prijs_per_stuk_excl_btw": 132.81,
+        "btw_per_stuk": 27.89
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 432.0,
+        "btw_per_stuk": 90.72
       }
-    ],
-    "totaal_excl_btw": 1864.18,
-    "totaal_btw": 391.47,
-    "totaal_incl_btw": 2255.65
+    ]
   }
 }

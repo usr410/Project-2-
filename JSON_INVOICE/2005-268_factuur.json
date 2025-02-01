@@ -1,0 +1,54 @@
+{
+    "order": {
+        "ordernummer": "2005-268",
+        "orderdatum": "27-08-2020",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Schoolstraat 464",
+            "postcode": "7082 AC",
+            "stad": "Rotterdam",
+            "KVK-nummer": "73726892"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 174.18,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 158.72,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 216.29,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 387.98,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2941.09,
+        "btw(21.0%)": 617.62,
+        "totaalbedrag": 3558.71
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

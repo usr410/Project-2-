@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2010-009",
+        "orderdatum": "12-04-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Hoofdstraat 369",
+            "postcode": "1082 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "88904062"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 106.06,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 67.99,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 764.19,
+        "btw(21.0%)": 160.48,
+        "totaalbedrag": 924.67
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2020-925",
+        "orderdatum": "23-01-2024",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Schoolstraat 169",
+            "postcode": "4704 AB",
+            "stad": "Amsterdam",
+            "KVK-nummer": "58408790"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 455.97,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 411.44,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Creative Cloud",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 194.19,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 4463.65,
+        "btw(21.0%)": 937.36,
+        "totaalbedrag": 5401.01
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

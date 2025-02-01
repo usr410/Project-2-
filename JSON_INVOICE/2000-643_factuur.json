@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2000-643",
+        "orderdatum": "24-09-2021",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Kerkstraat 5",
+            "postcode": "6936 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "98666171"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 230.43,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 691.29,
+        "btw(21.0%)": 145.17,
+        "totaalbedrag": 836.46
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

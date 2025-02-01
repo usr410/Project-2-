@@ -1,0 +1,36 @@
+{
+    "order": {
+        "ordernummer": "2023-349",
+        "orderdatum": "27-03-2020",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Hoofdstraat 389",
+            "postcode": "6297 AB",
+            "stad": "Amsterdam",
+            "KVK-nummer": "40146447"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 173.39,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 866.95,
+        "btw(21.0%)": 182.06,
+        "totaalbedrag": 1049.01
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

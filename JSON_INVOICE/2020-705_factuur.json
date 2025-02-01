@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2020-705",
+        "orderdatum": "23-02-2020",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Kerkstraat 399",
+            "postcode": "7390 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "62874829"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 109.4,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 77.57,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 424.02,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2617.35,
+        "btw(21.0%)": 549.64,
+        "totaalbedrag": 3166.99
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

@@ -1,0 +1,102 @@
+{
+    "order": {
+        "ordernummer": "2022-639",
+        "orderdatum": "22-06-2020",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Neptunus B.V.",
+            "adres": "Hoofdstraat 535",
+            "postcode": "8813 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "75968110"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 481.48,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 164.17,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 312.86,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 53.59,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 466.21,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 287.27,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 467.73,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 212.37,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 22.79,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 399.23,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 125.88,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 225.61,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 6628.88,
+        "btw(21.0%)": 1392.08,
+        "totaalbedrag": 8020.96
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

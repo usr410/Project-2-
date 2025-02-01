@@ -1,0 +1,84 @@
+{
+    "order": {
+        "ordernummer": "2004-673",
+        "orderdatum": "19-03-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Hoofdstraat 443",
+            "postcode": "5223 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "46407315"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 205.17,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 207.32,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 193.26,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 187.09,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 219.06,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 362.85,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 220.4,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 121.24,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 269.8,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 6714.64,
+        "btw(21.0%)": 1410.07,
+        "totaalbedrag": 8124.71
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

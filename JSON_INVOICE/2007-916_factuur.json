@@ -1,43 +1,120 @@
 {
-    "factuur": {
-        "factuurnummer": "2007-916",
-        "factuurdatum": "21-09-2021",
-        "betaaltermijn": "30-dagen",
+    "order": {
+        "ordernummer": "2007-916",
+        "orderdatum": "22-09-2024",
+        "betaaltermijn": "90-dagen",
         "klant": {
-            "naam": "PC Jupiter B.V.",
-            "adres": "Hoofdstraat 68",
-            "postcode": "6049 AA",
-            "stad": "Utrecht",
-            "KVK-nummer": "87106886"
+            "naam": "PC Mercurius B.V.",
+            "adres": "Kerkstraat 715",
+            "postcode": "3749 AB",
+            "stad": "Amsterdam",
+            "KVK-nummer": "14457307"
         },
         "producten": [
             {
-                "productnaam": "Razor gaming keyboard PRO",
-                "aantal": 4,
-                "prijs_per_stuk_excl_btw": 148.13,
-                "btw_per_stuk": 31.11
+                "productnaam": "Microsoft Office 365",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 38.34,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Lenovo Thinkpad T15",
-                "aantal": 1,
-                "prijs_per_stuk_excl_btw": 463.57,
-                "btw_per_stuk": 97.35
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 319.76,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "HP EliteDisplay E223",
+                "productnaam": "Oracle MySQL",
                 "aantal": 3,
-                "prijs_per_stuk_excl_btw": 272.5,
-                "btw_per_stuk": 57.23
+                "prijs_per_stuk_excl_btw": 38.67,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Dell UltraSharp U2419H",
+                "productnaam": "Google Analytics",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 456.58,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Power BI",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 314.67,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
                 "aantal": 4,
-                "prijs_per_stuk_excl_btw": 57.84,
-                "btw_per_stuk": 12.15
+                "prijs_per_stuk_excl_btw": 104.58,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 100.29,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 257.94,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 344.65,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 168.25,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 133.65,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 423.33,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 205.41,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 143.02,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 251.97,
+                "btw_percentage": 21.0
             }
         ],
-        "totaal_excl_btw": 2104.95,
-        "totaal_btw": 442.08,
-        "totaal_incl_btw": 2547.03
+        "subtotaal": 10125.33,
+        "btw(21.0%)": 2126.32,
+        "totaalbedrag": 12251.65
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
     }
 }

@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2013-972",
+        "orderdatum": "18-07-2023",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Hoofdstraat 308",
+            "postcode": "2777 AC",
+            "stad": "Utrecht",
+            "KVK-nummer": "91171322"
+        },
+        "producten": [
+            {
+                "productnaam": "GitHub",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 135.45,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 156.82,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1147.71,
+        "btw(21.0%)": 241.02,
+        "totaalbedrag": 1388.73
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

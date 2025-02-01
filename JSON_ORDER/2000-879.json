@@ -1,49 +1,100 @@
 {
-  "factuur": {
-    "factuurnummer": "2000-879",
-    "factuurdatum": "28-11-2020",
-    "betaaltermijn": "90-dagen",
+  "order": {
+    "ordernummer": "2000-879",
+    "orderdatum": "14-04-2024",
+    "betaaltermijn": "60-dagen",
     "klant": {
-      "naam": "PC Saturnus B.V.",
-      "adres": "Schoolstraat 859",
-      "postcode": "3973 AA",
+      "naam": "PC Sputnik B.V.",
+      "adres": "Kerkstraat 923",
+      "postcode": "1287 AB",
       "stad": "Rotterdam",
-      "KVK-nummer": "96383439"
+      "KVK-nummer": "87980736"
     },
     "producten": [
       {
-        "productnaam": "HP EliteDisplay E243",
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 325.26,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 337.05,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Office 365",
         "aantal": 5,
-        "prijs_per_stuk_excl_btw": 351.97,
-        "btw_per_stuk": 73.91
+        "prijs_per_stuk_excl_btw": 239.96,
+        "btw_percentage": 21.0
       },
       {
-        "productnaam": "HP EliteDisplay E223",
-        "aantal": 2,
-        "prijs_per_stuk_excl_btw": 459.57,
-        "btw_per_stuk": 96.51
-      },
-      {
-        "productnaam": "HP EliteDisplay E243",
-        "aantal": 1,
-        "prijs_per_stuk_excl_btw": 323.74,
-        "btw_per_stuk": 67.99
-      },
-      {
-        "productnaam": "Lenovo Thinkpad T15",
-        "aantal": 5,
-        "prijs_per_stuk_excl_btw": 274.44,
-        "btw_per_stuk": 57.63
-      },
-      {
-        "productnaam": "HP EliteDisplay E233",
+        "productnaam": "Microsoft Azure",
         "aantal": 4,
-        "prijs_per_stuk_excl_btw": 452.48,
-        "btw_per_stuk": 95.02
+        "prijs_per_stuk_excl_btw": 415.49,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Power BI",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 315.02,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Database 19c",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 313.21,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft SQL Server 2019",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 447.98,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle VirtualBox",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 172.89,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Oracle Java SE",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 99.38,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 267.8,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 418.47,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Office 365",
+        "aantal": 2,
+        "prijs_per_stuk_excl_btw": 69.3,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Google Cloud Platform",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 253.42,
+        "btw_percentage": 21.0
+      },
+      {
+        "productnaam": "Microsoft Visual Studio 2019",
+        "aantal": 3,
+        "prijs_per_stuk_excl_btw": 400.16,
+        "btw_percentage": 21.0
       }
-    ],
-    "totaal_excl_btw": 6184.85,
-    "totaal_btw": 1298.79,
-    "totaal_incl_btw": 7483.64
+    ]
   }
 }

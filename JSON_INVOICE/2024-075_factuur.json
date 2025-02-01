@@ -1,49 +1,84 @@
 {
-    "factuur": {
-        "factuurnummer": "2024-075",
-        "factuurdatum": "19-12-2024",
+    "order": {
+        "ordernummer": "2024-075",
+        "orderdatum": "18-10-2022",
         "betaaltermijn": "60-dagen",
         "klant": {
-            "naam": "PC Sputnik B.V.",
-            "adres": "Hoofdstraat 207",
-            "postcode": "7686 AC",
-            "stad": "Utrecht",
-            "KVK-nummer": "95979815"
+            "naam": "PC Mercurius B.V.",
+            "adres": "Kerkstraat 956",
+            "postcode": "6683 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "67958845"
         },
         "producten": [
             {
-                "productnaam": "Logitech gaming mouse G502 LIGHTSPEED",
-                "aantal": 2,
-                "prijs_per_stuk_excl_btw": 133.74,
-                "btw_per_stuk": 28.09
-            },
-            {
-                "productnaam": "MSI AERO 8G OC",
+                "productnaam": "Adobe Premiere Pro",
                 "aantal": 4,
-                "prijs_per_stuk_excl_btw": 447.69,
-                "btw_per_stuk": 94.01
+                "prijs_per_stuk_excl_btw": 110.68,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Dell UltraSharp U2719D",
-                "aantal": 5,
-                "prijs_per_stuk_excl_btw": 281.92,
-                "btw_per_stuk": 59.2
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 138.42,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Dell UltraSharp U2719D",
-                "aantal": 5,
-                "prijs_per_stuk_excl_btw": 13.26,
-                "btw_per_stuk": 2.78
+                "productnaam": "Google Workspace",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 493.48,
+                "btw_percentage": 21.0
             },
             {
-                "productnaam": "Logitech gaming mouse G502",
-                "aantal": 5,
-                "prijs_per_stuk_excl_btw": 147.33,
-                "btw_per_stuk": 30.94
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 359.5,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 135.2,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 107.46,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 95.08,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 163.55,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 450.23,
+                "btw_percentage": 21.0
             }
         ],
-        "totaal_excl_btw": 4270.79,
-        "totaal_btw": 896.82,
-        "totaal_incl_btw": 5167.61
+        "subtotaal": 6151.86,
+        "btw(21.0%)": 1291.88,
+        "totaalbedrag": 7443.74
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
     }
 }

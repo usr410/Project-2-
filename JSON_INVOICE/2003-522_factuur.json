@@ -1,0 +1,120 @@
+{
+    "order": {
+        "ordernummer": "2003-522",
+        "orderdatum": "07-09-2024",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Kerkstraat 902",
+            "postcode": "1765 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "53485166"
+        },
+        "producten": [
+            {
+                "productnaam": "Google Ads",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 353.52,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 372.82,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 186.32,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 499.32,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 327.36,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 234.33,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 47.63,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 151.05,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 101.71,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 350.91,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 287.93,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 385.05,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 140.39,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 51.7,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 255.76,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 12191.87,
+        "btw(21.0%)": 2560.3,
+        "totaalbedrag": 14752.17
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

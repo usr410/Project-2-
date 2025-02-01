@@ -1,25 +1,46 @@
 {
-  "factuur": {
-    "factuurnummer": "2022-731",
-    "factuurdatum": "18-07-2020",
+  "order": {
+    "ordernummer": "2022-731",
+    "orderdatum": "25-05-2020",
     "betaaltermijn": "60-dagen",
     "klant": {
-      "naam": "PC Jupiter B.V.",
-      "adres": "Hoofdstraat 733",
-      "postcode": "6795 AB",
+      "naam": "PC Saturnus B.V.",
+      "adres": "Hoofdstraat 524",
+      "postcode": "4475 AA",
       "stad": "Rotterdam",
-      "KVK-nummer": "23995230"
+      "KVK-nummer": "86991483"
     },
     "producten": [
       {
-        "productnaam": "MSI AERO 16G OC",
+        "productnaam": "GitHub",
+        "aantal": 1,
+        "prijs_per_stuk_excl_btw": 260.03,
+        "btw_per_stuk": 54.61
+      },
+      {
+        "productnaam": "Microsoft Power BI",
         "aantal": 3,
-        "prijs_per_stuk_excl_btw": 403.41,
-        "btw_per_stuk": 84.72
+        "prijs_per_stuk_excl_btw": 118.34,
+        "btw_per_stuk": 24.85
+      },
+      {
+        "productnaam": "Oracle Solaris",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 458.29,
+        "btw_per_stuk": 96.24
+      },
+      {
+        "productnaam": "Adobe Creative Cloud",
+        "aantal": 5,
+        "prijs_per_stuk_excl_btw": 183.87,
+        "btw_per_stuk": 38.61
+      },
+      {
+        "productnaam": "GitHub",
+        "aantal": 4,
+        "prijs_per_stuk_excl_btw": 249.79,
+        "btw_per_stuk": 52.46
       }
-    ],
-    "totaal_excl_btw": 1210.23,
-    "totaal_btw": 254.16,
-    "totaal_incl_btw": 1464.39
+    ]
   }
 }

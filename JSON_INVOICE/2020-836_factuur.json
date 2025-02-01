@@ -1,0 +1,102 @@
+{
+    "order": {
+        "ordernummer": "2020-836",
+        "orderdatum": "11-12-2020",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Sputnik B.V.",
+            "adres": "Hoofdstraat 850",
+            "postcode": "6792 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "68153415"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Cloud",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 296.14,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 268.31,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 30.92,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 339.45,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows 10",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 438.44,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 307.4,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 52.36,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VirtualBox",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 406.94,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Ads",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 484.61,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 86.64,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 140.68,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 290.02,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 10265.38,
+        "btw(21.0%)": 2155.74,
+        "totaalbedrag": 12421.12
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

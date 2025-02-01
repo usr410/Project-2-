@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2009-974",
+        "orderdatum": "26-01-2021",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 141",
+            "postcode": "2572 AB",
+            "stad": "Amsterdam",
+            "KVK-nummer": "35570027"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 31.41,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 385.72,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 155.87,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 2490.44,
+        "btw(21.0%)": 523.0,
+        "totaalbedrag": 3013.44
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

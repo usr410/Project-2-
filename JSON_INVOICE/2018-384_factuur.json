@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2018-384",
+        "orderdatum": "14-09-2022",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 138",
+            "postcode": "1612 AB",
+            "stad": "Rotterdam",
+            "KVK-nummer": "93100708"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 369.23,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "GitHub",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 224.25,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 347.51,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1389.49,
+        "btw(21.0%)": 291.8,
+        "totaalbedrag": 1681.29
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

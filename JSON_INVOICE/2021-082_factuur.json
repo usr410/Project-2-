@@ -1,0 +1,72 @@
+{
+    "order": {
+        "ordernummer": "2021-082",
+        "orderdatum": "03-05-2023",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Hoofdstraat 529",
+            "postcode": "8423 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "93609468"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 291.8,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 278.56,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle MySQL",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 140.1,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 128.3,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 157.57,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 160.83,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 434.92,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 6939.88,
+        "btw(21.0%)": 1457.38,
+        "totaalbedrag": 8397.26
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

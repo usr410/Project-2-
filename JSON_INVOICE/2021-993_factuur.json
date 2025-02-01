@@ -1,0 +1,84 @@
+{
+    "order": {
+        "ordernummer": "2021-993",
+        "orderdatum": "07-02-2023",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Hoofdstraat 725",
+            "postcode": "6454 AA",
+            "stad": "Utrecht",
+            "KVK-nummer": "35708741"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Dynamics 365",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 254.34,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 51.48,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 127.04,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 120.24,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 40.98,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 45.47,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 472.35,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 250.67,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle WebLogic Server",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 471.92,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 5088.06,
+        "btw(21.0%)": 1068.49,
+        "totaalbedrag": 6156.55
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

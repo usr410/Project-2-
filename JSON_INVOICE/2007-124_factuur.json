@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2007-124",
+        "orderdatum": "13-10-2022",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Mercurius B.V.",
+            "adres": "Hoofdstraat 904",
+            "postcode": "8725 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "48052508"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 252.86,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 10.21,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Azure",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 157.58,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1324.25,
+        "btw(21.0%)": 278.09,
+        "totaalbedrag": 1602.34
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

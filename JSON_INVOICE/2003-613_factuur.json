@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2003-613",
+        "orderdatum": "19-06-2023",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 755",
+            "postcode": "7527 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "40759189"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe Photoshop",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 216.5,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 76.42,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 802.34,
+        "btw(21.0%)": 168.5,
+        "totaalbedrag": 970.84
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

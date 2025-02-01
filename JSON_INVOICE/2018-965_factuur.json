@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2018-965",
+        "orderdatum": "10-05-2021",
+        "betaaltermijn": "90-dagen",
+        "klant": {
+            "naam": "PC Saturnus B.V.",
+            "adres": "Hoofdstraat 374",
+            "postcode": "5344 AC",
+            "stad": "Rotterdam",
+            "KVK-nummer": "98719705"
+        },
+        "producten": [
+            {
+                "productnaam": "Microsoft Office 365",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 200.28,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Analytics",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 124.58,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 2,
+                "prijs_per_stuk_excl_btw": 418.33,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1860.12,
+        "btw(21.0%)": 390.63,
+        "totaalbedrag": 2250.75
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

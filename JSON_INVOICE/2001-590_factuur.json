@@ -1,0 +1,42 @@
+{
+    "order": {
+        "ordernummer": "2001-590",
+        "orderdatum": "26-01-2020",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 584",
+            "postcode": "4625 AA",
+            "stad": "Rotterdam",
+            "KVK-nummer": "65680450"
+        },
+        "producten": [
+            {
+                "productnaam": "Adobe InDesign",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 59.79,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Visual Studio 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 275.9,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 335.69,
+        "btw(21.0%)": 70.5,
+        "totaalbedrag": 406.19
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

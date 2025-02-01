@@ -1,0 +1,48 @@
+{
+    "order": {
+        "ordernummer": "2022-835",
+        "orderdatum": "22-04-2023",
+        "betaaltermijn": "60-dagen",
+        "klant": {
+            "naam": "PC Aarde B.V.",
+            "adres": "Schoolstraat 968",
+            "postcode": "5151 AC",
+            "stad": "Rotterdam",
+            "KVK-nummer": "81597980"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Java SE",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 121.79,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 392.36,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle VM",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 319.76,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 1473.43,
+        "btw(21.0%)": 309.43,
+        "totaalbedrag": 1782.86
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}

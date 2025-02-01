@@ -1,0 +1,84 @@
+{
+    "order": {
+        "ordernummer": "2010-189",
+        "orderdatum": "17-08-2021",
+        "betaaltermijn": "30-dagen",
+        "klant": {
+            "naam": "PC Jupiter B.V.",
+            "adres": "Kerkstraat 825",
+            "postcode": "3970 AB",
+            "stad": "Utrecht",
+            "KVK-nummer": "43381400"
+        },
+        "producten": [
+            {
+                "productnaam": "Oracle Solaris",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 290.14,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Webservices",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 58.46,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Oracle Database 19c",
+                "aantal": 4,
+                "prijs_per_stuk_excl_btw": 413.12,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft SQL Server 2019",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 481.19,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Cloud Platform",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 453.22,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Illustrator",
+                "aantal": 3,
+                "prijs_per_stuk_excl_btw": 356.95,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Microsoft Windows Server 2019",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 228.97,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Adobe Premiere Pro",
+                "aantal": 1,
+                "prijs_per_stuk_excl_btw": 172.66,
+                "btw_percentage": 21.0
+            },
+            {
+                "productnaam": "Google Workspace",
+                "aantal": 5,
+                "prijs_per_stuk_excl_btw": 374.53,
+                "btw_percentage": 21.0
+            }
+        ],
+        "subtotaal": 8858.6,
+        "btw(21.0%)": 1860.32,
+        "totaalbedrag": 10718.92
+    },
+    "Bedrijfsgegevens": {
+        "Bedrijfsnaam": "NovaTech Solutions B.V",
+        "Bedrijfsadres": "Innovatieplein 12",
+        "Postcode & Plaats": "1012 AB Amsterdam",
+        "KVK nummer": "KVK87654321",
+        "BTW nummer": "NL003456789B01",
+        "IBAN": "NL91ABNA0417164300",
+        "Telefoonnummer": "+31 20 123 4567",
+        "E-mail": "info@novatechsolutions.nl",
+        "Website": "www.novatechsolutions.nl"
+    }
+}
