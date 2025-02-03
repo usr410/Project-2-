@@ -2,10 +2,10 @@ import json
 import os
 import shutil
 
-order_dir = "Project-2-\\JSON_ORDER"
-factuur_dir = "Project-2-\\JSON_INVOICE"
-processed_dir = "Project-2-\\JSON_PROCESSED"
-error_dir = "Project-2-\\JSON_ORDER_ERROR"
+order_dir = r"C:\school\code\projecten\Project-2-\\JSON_ORDER"
+factuur_dir = r"C:\school\code\projecten\Project-2-\\JSON_INVOICE"
+processed_dir = r"C:\school\code\projecten\Project-2-\\JSON_PROCESSED"
+error_dir = r"C:\school\code\projecten\Project-2-\\JSON_ORDER_ERROR"
 
 os.makedirs(factuur_dir, exist_ok=True)
 os.makedirs(processed_dir, exist_ok=True)
